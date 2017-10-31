@@ -22,7 +22,6 @@ public class JUnitDDT {
 	private static WebDriver driver;
 	private static StringBuffer verificationErrors = new StringBuffer ();
 	
-	
 	private String height;
 	private String weight;
 	private String bmi;
