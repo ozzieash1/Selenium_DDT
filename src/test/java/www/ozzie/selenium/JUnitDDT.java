@@ -28,7 +28,7 @@ public class JUnitDDT {
 	private String bmi;
 	private String bmiCategory;
 	
-	
+	//Test Comment
 	@Parameters
 	public static Collection testData(){
 		return Arrays.asList(
@@ -87,7 +87,7 @@ public class JUnitDDT {
 		}
 }
 
-/*@After
+@After
 	
 	public void teardown(){
 		driver.quit();
@@ -97,6 +97,6 @@ public class JUnitDDT {
 		fail(verificationErrorString);
 	}
 	
-}*/	
+}
 	
 }//End of class JUnitDDT

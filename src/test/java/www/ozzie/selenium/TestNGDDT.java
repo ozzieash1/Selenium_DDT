@@ -31,6 +31,8 @@ public class TestNGDDT {
 		driver = new ChromeDriver();
 		driver.get("http://cookbook.seleniumacademy.com/bmicalculator.html");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	
+	
 	}
 
 @Test(dataProvider = "testData")
@@ -58,7 +60,7 @@ public void testBMICalculator(String height, String weight, String bmi, String c
 		verificationErrors.append(e.toString());
 	}
 }
-	/*@AfterTest
+	@AfterTest
 	
 	public void teardown(){
 		driver.quit();
@@ -68,7 +70,7 @@ public void testBMICalculator(String height, String weight, String bmi, String c
 		fail(verificationErrorString);
 	}
 	
-}*/
+}
 
 
 }

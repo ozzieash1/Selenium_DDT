@@ -9,17 +9,8 @@ import www.ozzie.selenium.BMICalcPage_POM;
 
 
 public class BMICalculatorTests {
-	
-/*	
-	@Before
-	public void setUp() {
-		System.setProperty("webdriver.chrome.driver", "C:/WS/chromedriver.exe");
-		//System.setProperty("webdriver.chrome.driver", "C:/Users/Dell/chromeDriver");
-		driver = new ChromeDriver();
-		driver.get("http://cookbook.seleniumacademy.com/bmicalculator.html");
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-	}*/
-	
+	//Test comments
+
 	@Test
 
 	public void testBMICalculation(){
